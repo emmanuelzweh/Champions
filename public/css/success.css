@@ -1,0 +1,17 @@
+#success {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(../img/index/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.success-content {
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    border-radius: 5%;
+    padding: 5%;
+    background-color: gray;
+
+}
+

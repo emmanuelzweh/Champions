@@ -1,0 +1,55 @@
+.container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(../img/index/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-center {
+    padding: 12% ;
+    color: white;
+}
+
+.center {
+    padding: 10% 0;
+}
+
+#firstRow {
+    padding-top: 2%;
+}
+
+#seeMoreBtn {
+    padding: 5%;
+}
+
+
+img {
+    transition: 1s;
+    margin-top: 5px;
+}
+
+img:hover  {
+    transform: scale(1.1);
+    filter: brightness(50%);
+    /* opacity: 0.5; */
+    padding: 2%;
+
+}
+
+/* small devices */
+
+@media only screen and (max-width: 400px) {
+    .center {
+        padding: 8%;
+    }
+
+    img {
+        margin-top: 2%;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;
+        
+    }
+}
+

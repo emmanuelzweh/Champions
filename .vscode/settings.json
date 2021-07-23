@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "myDatabase",
+            "group": "sql",
+            "database": "C:\\Users\\ASUS\\Desktop\\db\\dddd.accdb"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

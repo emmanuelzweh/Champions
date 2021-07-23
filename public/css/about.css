@@ -1,0 +1,28 @@
+.container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(../img/index/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.more-about {
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+
+.content-head {
+    color: black;
+}
+
+.content-body {
+    color: black;
+    text-align: justify;
+    padding: 10%;
+}
+
+.vision-img {
+    width: 90%;
+    /* padding-top: 1%; */
+    height: auto;
+}

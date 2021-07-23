@@ -1,0 +1,62 @@
+<style>
+
+  .navbar-brand {
+    background-color: orange;
+  }
+
+  .navbar-brand:hover {
+    background-color: black;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <div class="row" style="margin-right: 12px;">
+      <a class="navbar-brand" href="../" style="color: white; font-size: 24px;"><%= brandName %></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: orange;" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../" style="color: white; font-size: 20px">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about" style="color: white; font-size: 20px">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id ="drop" style="color: white; font-size: 20px" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Members
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="civil" style="font-size: 18px;">Civil Engineers</a></li>
+            <li><a class="dropdown-item" href="/geologist" style="font-size: 18px;">Geologists</a></li>
+            <li><a class="dropdown-item" href="/computer" style="font-size: 18px;">Computer Scientists</a></li>
+            <li><a class="dropdown-item" href="/electrician" style="font-size: 18px;">Electrical and Mechanical Engineers</a></li>
+            <li><a class="dropdown-item" href="agriculturalist" style="font-size: 18px;">Agriculturalists</a></li>
+            <li><a class="dropdown-item" href="chemist" style="font-size: 18px;">Chemists</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="latest" style="color: white; font-size: 20px">Latest news</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery" style="color: white; font-size: 20px">Gallery</a>
+        </li>
+        
+      </ul>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <a href="contact" class="btn btn-warning" style="margin-right: 11px">Contact us</a>
+      <div class="d-flex" style="padding-bottom: 15px; margin-top: 5px">
+          <a href="#" class="fa fa-facebook btn btn-primary"></a>
+          <a href="#" class="fa fa-whatsapp btn" style="background-color: lightgreen; margin-left: 5px"></a>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,31 @@
+.container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(../img/index/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-center {
+    padding: 2%;
+    color: white;
+}
+
+.list-group {
+    width: 50%;
+    text-align: left;
+}
+
+
+#advert {
+    background-color: orange;
+}
+
+
+/* small devices */
+
+@media only screen and (max-width: 400px) {
+    #advert, marquee, #headline {
+        display: none;
+    }
+
+}
+

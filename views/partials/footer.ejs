@@ -1,0 +1,109 @@
+<style>
+    #footer {
+        background-color: black;
+        margin-top: 40px;
+    }
+
+    .container {
+        padding: 10px 0;
+    }
+
+    .nav-link {
+        color: white; 
+        font-size: 18px;
+    }
+
+    li:hover{
+        background-color: orange;
+        color: white;
+    }
+
+    .copyright {
+        text-align: center;
+        color: white;
+        padding: 10px;
+    }
+
+    .copyright:hover {
+        color: orange;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .container {
+            padding: 6%;
+            text-align: center;
+            
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        .d-flex {
+            visibility: hidden;
+            height: 0;
+        }
+    }
+
+</style>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="navbar-brand" href="../" style="color: white; font-size: 24px; background-color:transparent; text-align:center">Champions</a>
+
+                <!-- materialize icons link -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <div class="d-flex mt-4" id="icons">
+                    <a href="#" class="fa fa-facebook btn btn-primary"></a>
+                    <a href="#" class="fa fa-whatsapp btn" style="background-color: lightgreen; margin-left: 10px"></a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../latest">Latest news</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../gallery">Gallery</a>
+                      </li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../civil">Civil Engineers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../geologist">Geologists</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../computer">Computer Scientists</a>
+                      </li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../electrician">Electrical & Mechanical Engineers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../agriculturalist">Agriculturalists</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../chemist">Chemists</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">Copyright: @Champions 2021</div>
+    </div>
+</footer>

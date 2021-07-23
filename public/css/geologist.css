@@ -1,0 +1,22 @@
+.container-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(../img/index/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-center {
+    padding: 12% ;
+    color: white;
+}
+
+.center {
+    padding: 10% 0;
+}
+
+/* small devices */
+
+@media only screen and (max-width: 500px) {
+    .center {
+        padding: 6%;
+    }
+}
